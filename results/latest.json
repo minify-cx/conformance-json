@@ -2,7 +2,7 @@
   "counts": {
     "pass": 93
   },
-  "duration_seconds": 0.047,
+  "duration_seconds": 0.011,
   "eligibility": {
     "eligible": 93,
     "excluded": {
@@ -11,9 +11,9 @@
     }
   },
   "format": "json",
-  "generated_at": "2026-09-09T20:17:39Z",
+  "generated_at": "2026-09-09T23:35:43Z",
   "minifier": {
-    "path": "/workspace/scratch/04e13b047c72/conformance-work/minify/minify"
+    "path": "/home/nick/Repositories/nift/minify/minify/minify"
   },
   "results": [
     {
@@ -579,7 +579,7 @@
   "source_revisions": {
     "json-test-suite": {
       "revision": "1ef36fa01286573e846ac449e8683f8833c5b26a",
-      "synced_at": "2026-09-09T19:58:59Z",
+      "synced_at": "2026-09-09T22:15:10Z",
       "url": "https://github.com/nst/JSONTestSuite.git"
     }
   },

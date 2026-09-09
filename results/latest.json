@@ -1,0 +1,587 @@
+{
+  "counts": {
+    "pass": 93
+  },
+  "duration_seconds": 0.047,
+  "eligibility": {
+    "eligible": 93,
+    "excluded": {
+      "duplicate-key": 2,
+      "invalid-or-implementation-defined": 223
+    }
+  },
+  "format": "json",
+  "generated_at": "2026-09-09T20:17:39Z",
+  "minifier": {
+    "path": "/workspace/scratch/04e13b047c72/conformance-work/minify/minify"
+  },
+  "results": [
+    {
+      "id": "c705d9cac2d12e46",
+      "source": "test_parsing/y_array_arraysWithSpaces.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "f51e682b6b7cc2db",
+      "source": "test_parsing/y_array_empty-string.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "adb2fb40dfbe8343",
+      "source": "test_parsing/y_array_empty.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "299ecaef4738a1b9",
+      "source": "test_parsing/y_array_ending_with_newline.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "0c3dfeaf4ef18238",
+      "source": "test_parsing/y_array_false.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "1c519135508fb89a",
+      "source": "test_parsing/y_array_heterogeneous.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "112e4fa0181f5344",
+      "source": "test_parsing/y_array_null.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "07760fc101e8c616",
+      "source": "test_parsing/y_array_with_1_and_newline.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "03afd31a883732c5",
+      "source": "test_parsing/y_array_with_leading_space.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "b3e16166bab51009",
+      "source": "test_parsing/y_array_with_several_null.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "81cc3851947f8bd8",
+      "source": "test_parsing/y_array_with_trailing_space.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e48bf99ce81b6cc9",
+      "source": "test_parsing/y_number.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "7013c375ec7ed79f",
+      "source": "test_parsing/y_number_0e+1.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "be3278f2bcef9297",
+      "source": "test_parsing/y_number_0e1.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "b0cb08d8ce297288",
+      "source": "test_parsing/y_number_after_space.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "3e3aadfacbaea391",
+      "source": "test_parsing/y_number_double_close_to_zero.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "ee0eac06c335bb8d",
+      "source": "test_parsing/y_number_int_with_exp.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "183f0a4d8c433941",
+      "source": "test_parsing/y_number_minus_zero.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "5c5f25df22c6a2e3",
+      "source": "test_parsing/y_number_negative_int.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "f2792f1c57c0f03d",
+      "source": "test_parsing/y_number_negative_one.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "b4d5565e5f6ca534",
+      "source": "test_parsing/y_number_negative_zero.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "004ee24e7a208253",
+      "source": "test_parsing/y_number_real_capital_e.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "d653d46662ba2e08",
+      "source": "test_parsing/y_number_real_capital_e_neg_exp.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "43926945e608ca4c",
+      "source": "test_parsing/y_number_real_capital_e_pos_exp.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "eedc74eeef6bed5c",
+      "source": "test_parsing/y_number_real_exponent.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "7f1a16648538cdcc",
+      "source": "test_parsing/y_number_real_fraction_exponent.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "85fa366144949fc9",
+      "source": "test_parsing/y_number_real_neg_exp.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "46bedc39e1a0397a",
+      "source": "test_parsing/y_number_real_pos_exponent.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "fc86bc9bb1d95660",
+      "source": "test_parsing/y_number_simple_int.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "1cece20b13cdfc9c",
+      "source": "test_parsing/y_number_simple_real.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e501552f8af1ac69",
+      "source": "test_parsing/y_object.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "166d87dbda13d1a4",
+      "source": "test_parsing/y_object_basic.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "1c42c8ed80067438",
+      "source": "test_parsing/y_object_empty.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e3046a613b52bb77",
+      "source": "test_parsing/y_object_empty_key.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "65a323a43200c4e5",
+      "source": "test_parsing/y_object_escaped_null_in_key.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "f60f252f61fee285",
+      "source": "test_parsing/y_object_extreme_numbers.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e99f648867aad3d0",
+      "source": "test_parsing/y_object_long_strings.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "fb02acb62e2b0405",
+      "source": "test_parsing/y_object_simple.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "fd5a0d8c14a6dc2f",
+      "source": "test_parsing/y_object_string_unicode.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "f5a9379908713210",
+      "source": "test_parsing/y_object_with_newlines.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "349347d476e69464",
+      "source": "test_parsing/y_string_1_2_3_bytes_UTF-8_sequences.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "281efad20f3a2181",
+      "source": "test_parsing/y_string_accepted_surrogate_pair.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "330ce05b150bc986",
+      "source": "test_parsing/y_string_accepted_surrogate_pairs.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "4b49157bd86d0bad",
+      "source": "test_parsing/y_string_allowed_escapes.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "25b1dfa82c44cf7b",
+      "source": "test_parsing/y_string_backslash_and_u_escaped_zero.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "a826e27996ff7a6b",
+      "source": "test_parsing/y_string_backslash_doublequotes.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "bf9056e8cb274bc0",
+      "source": "test_parsing/y_string_comments.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "4befb5b9b4fc5599",
+      "source": "test_parsing/y_string_double_escape_a.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "4be6c8db4365f728",
+      "source": "test_parsing/y_string_double_escape_n.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "85929f3b7a47f818",
+      "source": "test_parsing/y_string_escaped_control_character.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "20cdc4aa105fff6b",
+      "source": "test_parsing/y_string_escaped_noncharacter.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "ee1d684eee483160",
+      "source": "test_parsing/y_string_in_array.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "83c1e43e68b6a582",
+      "source": "test_parsing/y_string_in_array_with_leading_space.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "6f1df77d7d408ef4",
+      "source": "test_parsing/y_string_last_surrogates_1_and_2.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e67d744c4582e841",
+      "source": "test_parsing/y_string_nbsp_uescaped.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "d238af1d6e1bbfe2",
+      "source": "test_parsing/y_string_nonCharacterInUTF-8_U+10FFFF.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "bfa16a36f9c8065c",
+      "source": "test_parsing/y_string_nonCharacterInUTF-8_U+FFFF.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "a55cdbc2277019b0",
+      "source": "test_parsing/y_string_null_escape.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "92fe12aac489bd74",
+      "source": "test_parsing/y_string_one-byte-utf-8.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "d738fe859dd09d48",
+      "source": "test_parsing/y_string_pi.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "e5c10bcdd5ee3ce7",
+      "source": "test_parsing/y_string_reservedCharacterInUTF-8_U+1BFFF.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "7ab214520f9f6b34",
+      "source": "test_parsing/y_string_simple_ascii.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "6c2dbdb9cb6c906b",
+      "source": "test_parsing/y_string_space.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "50ff1988ddd5743d",
+      "source": "test_parsing/y_string_surrogates_U+1D11E_MUSICAL_SYMBOL_G_CLEF.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "788347efb6fc6012",
+      "source": "test_parsing/y_string_three-byte-utf-8.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "00feba9e0b41a342",
+      "source": "test_parsing/y_string_two-byte-utf-8.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "b2051158e7c9ec2c",
+      "source": "test_parsing/y_string_u+2028_line_sep.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "ae5008ed36d09c23",
+      "source": "test_parsing/y_string_u+2029_par_sep.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "02ed3d48f23f8a8d",
+      "source": "test_parsing/y_string_uEscape.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "9395e54c11839051",
+      "source": "test_parsing/y_string_uescaped_newline.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "4f0dda2926cbda4d",
+      "source": "test_parsing/y_string_unescaped_char_delete.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "08d8408608f4a3a2",
+      "source": "test_parsing/y_string_unicode.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "689772d3582a0289",
+      "source": "test_parsing/y_string_unicodeEscapedBackslash.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "7dabf4c470b9f7a4",
+      "source": "test_parsing/y_string_unicode_2.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "4d10b57ae2850a84",
+      "source": "test_parsing/y_string_unicode_U+10FFFE_nonchar.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "ab056c583bb14d2d",
+      "source": "test_parsing/y_string_unicode_U+1FFFE_nonchar.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "24cbbbdd6b92564f",
+      "source": "test_parsing/y_string_unicode_U+200B_ZERO_WIDTH_SPACE.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "6b04272957be28eb",
+      "source": "test_parsing/y_string_unicode_U+2064_invisible_plus.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "b4f56355c07b2645",
+      "source": "test_parsing/y_string_unicode_U+FDD0_nonchar.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "601c913baf74474f",
+      "source": "test_parsing/y_string_unicode_U+FFFE_nonchar.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "6ff5c59560fe6060",
+      "source": "test_parsing/y_string_unicode_escaped_double_quote.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "f47d959efa79980d",
+      "source": "test_parsing/y_string_utf8.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "da3d0f8a0af13bb0",
+      "source": "test_parsing/y_string_with_del_character.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "9caa54a346222172",
+      "source": "test_parsing/y_structure_lonely_false.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "d079969809fa99ba",
+      "source": "test_parsing/y_structure_lonely_int.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "0a84acfc0d8c6747",
+      "source": "test_parsing/y_structure_lonely_negative_real.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "650c6b10fab2ccbd",
+      "source": "test_parsing/y_structure_lonely_null.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "302a1cca7b65d50f",
+      "source": "test_parsing/y_structure_lonely_string.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "5e4926995b564599",
+      "source": "test_parsing/y_structure_lonely_true.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "6a227a94eaf41d39",
+      "source": "test_parsing/y_structure_string_empty.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "d1c82df1580a904a",
+      "source": "test_parsing/y_structure_trailing_newline.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "7b341c0e755f9ebc",
+      "source": "test_parsing/y_structure_true_in_array.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    },
+    {
+      "id": "3cbdbb563a8068e2",
+      "source": "test_parsing/y_structure_whitespace_array.json",
+      "status": "pass",
+      "suite": "json-test-suite"
+    }
+  ],
+  "schema_version": 1,
+  "source_revisions": {
+    "json-test-suite": {
+      "revision": "1ef36fa01286573e846ac449e8683f8833c5b26a",
+      "synced_at": "2026-09-09T19:58:59Z",
+      "url": "https://github.com/nst/JSONTestSuite.git"
+    }
+  },
+  "total": 93
+}
